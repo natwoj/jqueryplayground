@@ -1,15 +1,14 @@
             $(document).ready(function() {
-                $("button").addClass("animated shake");
-             $(".well").addClass ("animated bounce");
-             $("#target3").addClass ("animated fadeOut");
-             $("#target1").css("backgroundColor","red");
-             $("#target4").html("<em>#target4</em>")
-             $("#target6").remove();
-             $("#target2").appendTo("#right-well");
-             $("#target5").clone().appendTo("#left-well");
-             $("#target1").parent().css("backgroundColor","red");
-             $("#right-well").children().css("color","orange");
-             $(".target:nth-child(2)").addClass("animated bounce");
-             $(".target:even").addClass("animated shake");
-             $("body").addClass("animated hinge");
+            $("button").addClass("animate__animated animate__bounce");
+            $(".well").addClass ("animate__animated animate__bounce");
+            $("#target3").addClass ("animate__fadeOut");
+            $("#target1").css("backgroundColor","blue");
+            $("#target4").html("<b>#target4</b>")
+            $("#target2").appendTo("#right-well");
+            $("#target5").clone().appendTo("#left-well");
+            $("#target1").parent().css("backgroundColor","yellow");
+            $("#right-well").children().css("color","orange");
+            $(".target:nth-child(2)").addClass("animate__bounce");
+            $(".target:even").addClass("animate__shake");
+            $("body").addClass("animate__animated animate__hinge")
             });
